@@ -393,6 +393,11 @@ export const accommodationDetailView: DetailViewConfig = {
               component: CellComponent.StringCell,
               fields: { text: 'Gpstype' },
             },
+            {
+              title: 'GPS Map',
+              component: CellComponent.MapCell,
+              fields: { pos: 'GpsPoints.position' },
+            },
           ],
         },
       ],

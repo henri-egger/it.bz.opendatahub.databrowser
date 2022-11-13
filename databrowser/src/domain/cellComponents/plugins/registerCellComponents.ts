@@ -22,6 +22,7 @@ import ToggleCell from '../components/cells/toggleCell/ToggleCell.vue';
 import TypeBasedCell from '../components/cells/typeBasedCell/TypeBasedCell.vue';
 import WebcamGalleryCell from '../components/cells/webcamGalleryCell/WebcamGalleryCell.vue';
 import FixedValue from '../components/filters/fixedValue/FixedValue.vue';
+import MapCell from '../components/cells/mapCell/mapCell.vue';
 
 import { CellComponent, FilterComponent } from '../types';
 
@@ -48,6 +49,7 @@ export default {
     app.component(CellComponent.ToggleCell, ToggleCell);
     app.component(CellComponent.TypeBasedCell, TypeBasedCell);
     app.component(CellComponent.WebcamGalleryCell, WebcamGalleryCell);
+    app.component(CellComponent.MapCell, MapCell);
 
     app.component(FilterComponent.FixedValue, FixedValue);
   },

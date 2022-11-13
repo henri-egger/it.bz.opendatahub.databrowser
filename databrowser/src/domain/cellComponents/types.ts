@@ -20,6 +20,7 @@ export enum CellComponent {
   ToggleCell = 'ToggleCell',
   TypeBasedCell = 'TypeBasedCell',
   WebcamGalleryCell = 'WebcamGalleryCell',
+  MapCell = 'MapCell',
 }
 
 export enum FilterComponent {
